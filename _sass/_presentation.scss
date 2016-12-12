@@ -1,0 +1,25 @@
+/* Mise en page du cadre de présentation  */
+
+.site-pres {
+    border: 5px silver groove;
+    padding: 2px;
+    max-height: 90%;
+    width: 250px;
+    float: right;
+ }
+ 
+.site-ico {
+	width: 80%;
+	height: 30%;
+	margin : auto;
+}
+
+.titre-pres {
+	font-size: 2em;
+}
+
+.style-pres {
+	text-align: center;
+	letter-spacing: -4px;
+	font-family: purisa, arial black;
+}

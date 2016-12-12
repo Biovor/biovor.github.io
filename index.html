@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div>
+
+  <div class="page-titre"><h1>Actu Relax :</h1></div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-mp">
+        <span class="post-date">{{ post.date | date: "%b, %-d, %Y" }}</span>
+        <h2 class="post-ti">
+          {{ post.title }}
+        </h2>
+         <a class="post-content" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

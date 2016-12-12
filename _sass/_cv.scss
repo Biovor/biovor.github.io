@@ -1,0 +1,72 @@
+
+/* Mise en page du header */
+
+.cv-nom,
+.cv-titre {
+	color: rgb(145,0,0);
+	font-weight: bold;
+}
+
+.cv-titre {
+	font-size: 2em;
+	border: 2px black solid;
+	border-radius: 10px;
+	text-shadow: 6px 6px 4px black;
+	text-align: center;
+}
+
+.cv-img {
+	float: right;
+	width: 213px;
+	height: 220px;
+}
+
+.cv-part1 {
+
+	margin-left: 1em;
+}
+
+.cv-objactu,
+.cv-date {
+    color: rgb(37,130,28);
+    text-decoration: underline;
+}
+
+.cv-date {
+	font-weight: bold;
+}
+
+.cv-date-sport {
+    color: rgb(37,130,28);
+}
+
+.cv-marge {
+	margin-left: 6em;
+}
+
+.cv {
+	padding: 40px;
+	font-family: kaushan_scriptregular,arial;
+	font-size: 1.2em;
+	color: black;
+	background: url("http://127.0.0.1:4000/img/cv/fond.jpg") no-repeat center ;
+	background-size: 110%;
+}
+
+.cv-flex {
+	display: flex;
+	justify-content: center;
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.eot');
+    src: url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.woff') format('woff'),
+         url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('http://127.0.0.1:4000/font/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

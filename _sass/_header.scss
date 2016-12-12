@@ -1,0 +1,48 @@
+/* Mise en page du header */
+
+.site-header {
+    text-align: center;
+    font-family: purisa, arial black; 
+}
+
+.titre-site {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.slogan {
+    color: blue;
+    font-family: purisa, arial black;
+    letter-spacing: -2px;
+}
+
+.en-tete {
+    width: 100%;
+    height: 263px;
+    margin: auto;
+    position: relative;
+    border-bottom: 2px silver solid;
+}
+
+/* Barre de navigation */
+
+.nav {
+    list-style-type: none;
+    background-color: black;
+    text-align : center;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-link {
+    display: inline-block; 
+    font-size: 1.3em;
+    width: 150px;
+    height: 25px;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 30px;
+    padding:2px;
+    margin-top: 6px;
+}
