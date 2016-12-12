@@ -1,0 +1,114 @@
+
+- nom: DURIEZ
+  prenom: Ludovic
+  email: duriez.ludovic@gmail.com
+
+  objectif: Devenir Wilder a la Wild Code School
+
+  actuellement: Participe à la session de recrutement pour la Wild Code School
+
+  profession:
+  - date: 2015 - 2016
+    ville: CHECY (45)
+    employeur: Leclerc
+    metier: Ouvrier polyvalent secteur boulangerie, pâtisserie
+    postes: 
+    boulangerie: Four, Pétrissage, Façonnage, Pains spéciaux.
+    patisserie: Entremet, Pâte à choux, Tarterie.
+
+  - date: 2014 - 2015
+    ville: OLIVET (45)
+    employeur: AUCHAN
+    metier: Ouvrier pâtissier
+    poste: Petits gâteaux, tourier
+
+  - date: 2013 - 2014
+    ville: NEVEZ (29)
+    employeur: M.BRIERE
+    metier: Apprenti BTM Pâtisserie
+    poste: Entremet, Tourier, Pâte a choux, Tarterie, Chocolat
+
+  - date: 2012 - 2013
+    ville: NEVEZ (29)
+    employeur: M.BRIERE
+    metier: Ouvrier Boulanger
+    poste: Pétrissage, Façonnage
+
+  - date: 2011 - 2012
+    ville: NEVEZ (29)
+    employeur: M.BRIERE
+    metier: Apprenti MC Boulangerie spécialisée      
+
+  - date: saison été 2011
+    ville: CLOHARS CARNOET (29)
+    employeur: M.PEIGNET
+    metier: Pâtissier
+    poste: Pièces montées, Entremets
+
+  - date: 2010 - 2011
+    ville: PITHIVIERS (45)
+    employeur: M.MARECHAL
+    metier: Apprenti connexe Boulanger       
+
+  - date: 2008 - 2010
+    ville: ORLÉANS (45)
+    employeur: M.BRACIK
+    metier: Apprenti pâtissier 2éme année
+       
+  - date: 2007 - 2008
+    ville: ORLÉANS (45)
+    employeur: M.LECOINTRE
+    metier: Apprenti pâtissier 1er année
+       
+  - date: 2006 - 2007
+    ville: PITHIVIERS (45)
+    employeur: M .ARRONDEAU
+    metier: Stagiaire en pâtisserie
+
+  formation:
+  - date: 2012 - 2014
+    ecole: CFA Cuzon
+    ville: QUIMPER
+    diplome: Préparation BTM Pâtisserie. 
+
+  - date: 2011 - 2012
+    ecole: IFAC
+    ville: BREST
+    diplome: Mention complémentaire Boulangerie spécialisée.
+
+  - date: 2010 - 2011
+    ecole: CFA Charles Péguy
+    ville: ORLÉANS 
+    diplome: Mention Complémentaire Pâtisserie Boulangère.
+ 
+  - date: 2007 - 2010
+    ecole: CFA Charles Péguy
+    ville: ORLÉANS 
+    diplome: BEP Alimentation Pâtissier, Glacier, Chocolatier, Confiseur.
+
+  centre-interet:
+  - loisir:
+    - nom: Informatique
+    - nom: Modélisme
+    - nom: Cinéma
+    - nom: Automobile
+  - sport:
+     - date: 2006 - 2007
+       nom: Basket
+       ville: Pithiviers
+
+     - date: 2005 - 2006
+       nom: Escrime
+       ville: Pithiviers
+
+     - date: 2003 - 2005
+       nom: Rugby
+       ville: Pithiviers
+
+     - date: 2002 - 2003
+       nom: Vélo crosse
+       ville: Toury
+
+     - date: 2000 - 2004
+       nom: Natation
+       ville: Voves
