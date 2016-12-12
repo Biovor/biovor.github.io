@@ -1,0 +1,35 @@
+
+<!-- le footer -->
+
+<footer class="footer-site">
+  <div class="wrapper">	
+      <div class="footer-titre"> <h2>{{ site.title }}</h2></div>
+      <div class="footer">
+      	<div class="footer-contacte">
+        	<ul class="contact-list">
+          	 <li class="slogan">{{ site.slogan }}</li> <!-- scss dans le header -->
+          	 <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+	        </ul>
+	      </div>
+
+      	<div class="footer-lien">
+        	<ul class="social-media-list">
+         	 {% if site.facebook_username %}
+         	 <li>
+         	   {% include icon-facebook.html username=site.facebook_username %}
+         	 </li>
+         	 {% endif %}
+
+        	  {% if site.site_username %}
+        	  <li>
+         	   {% include icon-relax.html username=site.site_username %}
+         	 </li>
+         	 {% endif %}
+       	 </ul>
+      	</div>
+      <div class="footer-description">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

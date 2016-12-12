@@ -1,0 +1,16 @@
+
+<!-- Le header -->
+
+<header class="site-header">
+  <div class="en-tete">
+    <nav class="nav">
+        <a href="{{ site.baseurl }}/">{% include icon-accueil.svg %}</a>
+          {% for my_page in site.pages %}
+           {% if my_page.title %}
+           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+           {% endif %}
+          {% endfor %}
+    </nav>
+    <h1> <span class="titre-site"> {{ site.title }} </span> <br/> <span class="slogan"> {{ site.slogan }}</span></h1>
+  </div>  
+</header>

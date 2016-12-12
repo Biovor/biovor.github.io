@@ -1,0 +1,31 @@
+
+<!-- cadre avec le logo de l'entreprise plus les liens -->
+
+<div class="site-pres">
+  <div class="site-ico">
+     <a class="ico" href="https://{{ site.site_username }}/"> {% include icon-relax.svg %}</a>
+  </div>
+
+  <h3 class="style-pres-"> <span class="titre-pres"> {{ site.title }} </span> <br/> <span class="slogan"> {{ site.slogan }}</span></h3> 
+
+
+  <nav>
+      <ul class="social-media-list"> <!-- scss footer -->
+         {% if site.facebook_username %}
+        <li>
+        {% include icon-facebook.html username=site.facebook_username %}
+        </li>
+          {% endif %}
+
+          {% if site.site_username %}
+        <li>
+          {% include icon-relax.html username=site.site_username %}
+        </li>
+          {% endif %}
+        <li>
+          {% include icon-cont.html %}
+        </li>
+      </ul>
+  </nav>
+
+</div>
