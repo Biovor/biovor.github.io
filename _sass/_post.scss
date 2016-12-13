@@ -1,0 +1,167 @@
+
+/* présentation général des post */
+ 
+img {
+    max-width: 100%;
+}
+
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 45px;
+    letter-spacing: -1px;
+    line-height: 1;
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+    font-family: Tahoma;
+	color: rgb(90,0,0);
+	font-size: 1.2em;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+
+    a {
+    	color: red;
+    }
+}
+
+/* positionnement des images dans les post */
+
+/* images du post: le massage dans le temps */
+
+.p1img1 {
+	float: left;
+	width: 200px;
+	height: 135px;
+	padding: 10px;
+}
+
+.p1img2 {
+    float: left;
+    width: 315px;
+    height: 442px;
+    padding: 10px;
+}
+
+.p1img3 {
+    float: right;
+    width: 630px;
+    height: 880px;
+    padding: 10px;
+}
+
+/* images du post: les appareils de massages */
+
+.p2img2,
+.p2img6,
+.p2img8 {
+	float: left;
+	padding: 10px;
+}
+
+.p2img4,
+.p2img7,
+.p2img10 {
+	float: right;
+	padding: 10px;
+}
+
+.p2img2 {
+	width: 130px;
+	height: 115px;
+}
+
+.p2img6 {
+	width: 90px;
+	height: 90px;
+}
+
+.p2img7 {
+	width: 210px;
+	height: 170px;
+}
+
+.p2img8 {
+	width: 80px;
+	height: 80px;
+}
+
+.p2img10 {
+	width: 150px;
+	height: 100px;
+}
+
+/* images du post: Les fauteuils de massages */
+
+.p3img2 {
+    float: right;
+    padding: 10px;
+}
+
+.p3img3 {
+    float: left;
+    padding: 10px;
+}
+
+/* images du post: la gamme distribuée par Relax-Forme */
+/* Medi-form */
+
+.p5img1-3 {
+    width: 130px;
+    height: 130px;
+}
+
+.p5img1-5,
+.p5img1-8 {
+    float: left;
+    padding: 10px;
+}
+
+.p5img1-3,
+.p5img1-6,
+.p5img1-9 {
+    float: right;
+    padding: 10px;
+}
+
+/* EASY’MASS et KIN RELAX */
+
+.p5img2-5,
+.p5img2-6 {
+    float: left;
+    padding: 10px;
+}
+
+.p5img2-7 {
+    float: right;
+    padding: 10px;
+}
+
