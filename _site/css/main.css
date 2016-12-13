@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/* Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, li, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/* Basic styling */
+body {
+  min-width: 800px;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
+
+/* Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 15px; }
+
+/* Lists */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/* Links */
+a {
+  color: #2a7ae2;
+  text-decoration: none; }
+  a:visited {
+    color: #1756a9; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+/* Wrapper */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: 60%;
+  min-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/* Clearfix */
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Icons */
+.icon > svg {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+/* Mise en page du header */
+.site-header {
+  text-align: center;
+  font-family: purisa, arial black; }
+
+.titre-site {
+  font-size: 3em;
+  text-transform: uppercase; }
+
+.slogan {
+  color: blue;
+  font-family: purisa, arial black;
+  letter-spacing: -2px; }
+
+.en-tete {
+  width: 100%;
+  height: 263px;
+  margin: auto;
+  position: relative;
+  border-bottom: 2px silver solid; }
+
+/* Barre de navigation */
+.nav {
+  list-style-type: none;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center; }
+
+.page-link {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 150px;
+  height: 25px;
+  border: 2px black solid;
+  background-color: white;
+  border-radius: 30px;
+  padding: 2px;
+  margin-top: 6px; }
+
+/* Mise en page du footer */
+.footer {
+  display: flex;
+  justify-content: center; }
+
+.footer-site {
+  border-top: 2px solid silver;
+  padding: 30px 0; }
+
+.footer-titre {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: purisa, arial black;
+  width: 100%;
+  height: 45px; }
+
+.contact-list,
+.social-media-list {
+  list-style: none; }
+
+.footer-description {
+  flex: 2; }
+
+.footer-lien {
+  margin-right: 80px;
+  margin-left: 30px; }
+
+.footer-contacte {
+  margin-top: -20px; }
+
+/* Présentation de la page d'accueil */
+.page-content {
+  padding: 30px 0; }
+
+.page-titre {
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: purisa; }
+
+.post-mp {
+  border: 5px silver groove;
+  padding: 2px;
+  width: 100%;
+  border-radius: 2%; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  width: 70%; }
+  .post-list > li {
+    margin-bottom: 30px; }
+
+.post-date {
+  font-size: 14px;
+  color: #828282; }
+
+.post-ti {
+  font-size: 30px;
+  color: #25821c;
+  font-family: arial black;
+  text-decoration: underline; }
+
+.post-list a {
+  color: #490000; }
+
+.post-list a:hover {
+  color: black;
+  text-decoration: none; }
+
+.post-list a:visited {
+  color: #ab3c40; }
+
+/* Mise en page du cadre de présentation  */
+.site-pres {
+  border: 5px silver groove;
+  padding: 2px;
+  max-height: 90%;
+  width: 250px;
+  float: right; }
+
+.site-ico {
+  width: 80%;
+  height: 30%;
+  margin: auto; }
+
+.titre-pres {
+  font-size: 2em; }
+
+.style-pres {
+  text-align: center;
+  letter-spacing: -4px;
+  font-family: purisa, arial black; }
+
+/* présentation général des post */
+img {
+  max-width: 100%; }
+
+.post-header {
+  margin-bottom: 30px; }
+
+.post-title {
+  font-size: 45px;
+  letter-spacing: -1px;
+  line-height: 1; }
+  @media screen and (max-width: 800px) {
+    .post-title {
+      font-size: 36px; } }
+
+.post-content {
+  margin-bottom: 30px;
+  font-family: Tahoma;
+  color: #5a0000;
+  font-size: 1.2em; }
+  .post-content h2 {
+    font-size: 32px; }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 28px; } }
+  .post-content h3 {
+    font-size: 26px; }
+    @media screen and (max-width: 800px) {
+      .post-content h3 {
+        font-size: 22px; } }
+  .post-content h4 {
+    font-size: 20px; }
+    @media screen and (max-width: 800px) {
+      .post-content h4 {
+        font-size: 18px; } }
+  .post-content a {
+    color: red; }
+
+/* positionnement des images dans les post */
+/* images du post: le massage dans le temps */
+.p1img1 {
+  float: left;
+  width: 200px;
+  height: 135px;
+  padding: 10px; }
+
+.p1img2 {
+  float: left;
+  width: 315px;
+  height: 442px;
+  padding: 10px; }
+
+.p1img3 {
+  float: right;
+  width: 630px;
+  height: 880px;
+  padding: 10px; }
+
+/* images du post: les appareils de massages */
+.p2img2,
+.p2img6,
+.p2img8 {
+  float: left;
+  padding: 10px; }
+
+.p2img4,
+.p2img7,
+.p2img10 {
+  float: right;
+  padding: 10px; }
+
+.p2img2 {
+  width: 130px;
+  height: 115px; }
+
+.p2img6 {
+  width: 90px;
+  height: 90px; }
+
+.p2img7 {
+  width: 210px;
+  height: 170px; }
+
+.p2img8 {
+  width: 80px;
+  height: 80px; }
+
+.p2img10 {
+  width: 150px;
+  height: 100px; }
+
+/* images du post: Les fauteuils de massages */
+.p3img2 {
+  float: right;
+  padding: 10px; }
+
+.p3img3 {
+  float: left;
+  padding: 10px; }
+
+/* Mise en page du header */
+.cv-nom,
+.cv-titre {
+  color: #910000;
+  font-weight: bold; }
+
+.cv-titre {
+  font-size: 2em;
+  border: 2px black solid;
+  border-radius: 10px;
+  text-shadow: 6px 6px 4px black;
+  text-align: center; }
+
+.cv-img {
+  float: right;
+  width: 213px;
+  height: 220px; }
+
+.cv-part1 {
+  margin-left: 1em; }
+
+.cv-objactu,
+.cv-date {
+  color: #25821c;
+  text-decoration: underline; }
+
+.cv-date {
+  font-weight: bold; }
+
+.cv-date-sport {
+  color: #25821c; }
+
+.cv-marge {
+  margin-left: 6em; }
+
+.cv {
+  padding: 40px;
+  font-family: kaushan_scriptregular,arial;
+  font-size: 1.2em;
+  color: black;
+  background: url("http://127.0.0.1:4000/img/cv/fond.jpg") no-repeat center;
+  background-size: 110%; }
+
+.cv-flex {
+  display: flex;
+  justify-content: center; }
+
+@font-face {
+  font-family: 'kaushan_scriptregular';
+  src: url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.eot");
+  src: url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.woff2") format("woff2"), url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.woff") format("woff"), url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.ttf") format("truetype"), url("http://127.0.0.1:4000/font/kaushanscript-regular-webfont.svg#kaushan_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Mise en page de la page vidéo  */
+.video-titre {
+  color: #25821c; }
+
+.video-date {
+  color: silver;
+  font-size: 0.8em;
+  font-weight: bold; }
+
+.video-description {
+  max-width: 950px; }
