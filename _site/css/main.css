@@ -297,7 +297,7 @@ img {
 
 .p2img8 {
   width: 80px;
-  height: 80px; }
+  height: 70px; }
 
 .p2img10 {
   width: 150px;
@@ -310,6 +310,33 @@ img {
 
 .p3img3 {
   float: left;
+  padding: 10px; }
+
+/* images du post: la gamme distribuée par Relax-Forme */
+/* Medi-form */
+.p5img1-3 {
+  width: 130px;
+  height: 130px; }
+
+.p5img1-5,
+.p5img1-8 {
+  float: left;
+  padding: 10px; }
+
+.p5img1-3,
+.p5img1-6,
+.p5img1-9 {
+  float: right;
+  padding: 10px; }
+
+/* EASY’MASS et KIN RELAX */
+.p5img2-5,
+.p5img2-6 {
+  float: left;
+  padding: 10px; }
+
+.p5img2-7 {
+  float: right;
   padding: 10px; }
 
 /* Mise en page du header */
