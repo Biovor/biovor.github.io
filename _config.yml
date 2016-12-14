@@ -13,7 +13,7 @@ slogan: Le massage enfin accessible à tous
 description: > # this means to ignore newlines until "baseurl:"
     Relax-forme® est la marque déposée de la SAS Pandore, société créer en 2012,
     vente, location, installation et S.A.V de fauteuils de massage professionnels hauts de gamme
-    de la marque française SUPRA qui les conçoivent depuis plus de 25 ans.
+    de la marque française SUPRA, qui les conçoit depuis plus de 25 ans.
     Nous nous adressons aux particuliers ainsi qu’aux entreprises.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
