@@ -2,14 +2,15 @@
 <!-- le footer -->
 
 <footer class="footer-site">
-  <div class="wrapper">	
-    <div class="footer-titre"> <h2><span class="titre-footer2"> {{ site.title2 }}</span><span class="titre-footer3">{{ site.title3 }}</span></h2></div>
+  <div class="wrapper">	    
     <div class="footer">
       <div class="footer-contacte">
         <ul class="contact-list">
-          <li class="slogan">{{ site.slogan }}</li> <!-- scss dans le header -->
+          <li class="slogan">
+           <div class="footer-titre"><h2><span class="titre-footer2"> {{ site.title2 }}</span><span class="titre-footer3">{{ site.title3 }}</span></h2></div>{{ site.slogan }}
+          </li> <!-- scss slogan dans le header -->
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>Tel: {{ site.tel }}</li>
+          <li>Tel: {{ site.tel-fix }}</li>
         </ul>
       </div>
     	<div class="footer-lien">

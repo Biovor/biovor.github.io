@@ -9,7 +9,7 @@
 title: Relax-forme®
 title2: Relax-
 title3: forme®
-slogan: Le massage pour tous
+slogan: Le massage enfin accessible à tous
 description: > # this means to ignore newlines until "baseurl:"
     Relax-forme® est la marque déposée de la SAS Pandore, société créer en 2012,
     vente, location, installation et S.A.V de fauteuils de massage professionnels hauts de gamme
@@ -20,8 +20,9 @@ url: "" # the base hostname & protocol for your site
 site_username: relax-forme.fr
 facebook_username: fauteuil.de.massage
 email: info@relax-forme.fr
-tel: 09 52 50 81 14
-
+tel-fix: 09 52 50 81 14
+tel-port: 06 78 97 06 09
+adresse: 172 Bis rue du poirier rond 45000 ORLEANS
 
 # Build settings
 markdown: kramdown

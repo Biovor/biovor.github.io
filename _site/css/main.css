@@ -223,6 +223,12 @@ h1, h2, h3, h4, h5, h6 {
 .titre-pres3 {
   color: #25821c; }
 
+.slogan-pres {
+  color: blue;
+  font-family: purisa, arial black;
+  letter-spacing: -2px;
+  font-size: 0.8em; }
+
 .style-pres {
   text-align: center;
   letter-spacing: -4px;
@@ -355,6 +361,17 @@ img {
   float: right;
   padding: 10px; }
 
+/* images du post: Le Drainage Lymphatique */
+.p6img1 {
+  float: right;
+  padding: 10px;
+  width: 262px;
+  height: 175px; }
+
+.p6img2 {
+  float: left;
+  padding-right: 30px; }
+
 /* Mise en page du header */
 .cv-nom,
 .cv-titre {
@@ -419,3 +436,28 @@ img {
 
 .video-description {
   max-width: 950px; }
+
+/* Mise en page de la page contacte */
+.contacte-img1 {
+  float: left; }
+
+.contacte-img2 {
+  float: right; }
+
+.contacte-img1,
+.contacte-img2,
+.contacte-img3 {
+  width: 320px;
+  height: 240px;
+  padding: 10px; }
+
+.contact-rubrique {
+  color: #25821c;
+  text-decoration: underline; }
+
+.contacte-horaires {
+  color: red;
+  font-size: 1.2em; }
+
+.contacte-flex {
+  display: flex; }

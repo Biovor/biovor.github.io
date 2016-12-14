@@ -1,0 +1,31 @@
+/* Mise en page de la page contact */
+
+.contact-img1 {
+	float: left;
+}
+
+.contact-img2 {
+	float: right;
+}
+
+.contact-img1,
+.contact-img2,
+.contact-img3 {
+	width: 320px;
+	height: 240px;
+	padding: 10px;
+}
+
+.contact-rubrique {
+	color: rgb(37,130,28);
+	text-decoration: underline;
+}
+
+.contact-horaires {
+	color: rgb(255,0,0);
+	font-size: 1.2em;
+}
+
+.contact-flex {
+	display: flex;
+}
